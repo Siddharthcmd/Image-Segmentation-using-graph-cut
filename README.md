@@ -4,6 +4,10 @@ Implemented code for semi-automatic binary segmentation based on SLIC superpixel
 
 The analysation of natural images and estimating the total count available is an important task in computer vision applications. Arecanut images are natural images, and analysis of these images plays an important role in the Indian market. To count the areca visual descriptors of an image are used. There are several automated techniques available for other fruits and crops, but no technique is available for identifying the arecanuts in bunches before harvesting. Thus, such an identification system is needed.
 
+## System Architecture 
+<img width="854" alt="image" src="https://github.com/Siddharthcmd/Image-Segmentation-using-graph-cut/assets/67225894/df92d7ab-d563-4177-ad95-865b2976eb81">
+
+
 # Static Segmentation:
 
 For static segmentation, user needs to pass a mask of same size as of image with foreground and background markings. Foreground marking should be in Red color and Background makrings should be in Blue color. Run the following command to execute the segmentation:
